@@ -1,0 +1,11 @@
+-- Duplicate Identifier
+
+function main returns integer;
+    b: integer is 4 * 2;
+begin
+    if 8 <= 0 then
+        b + 3;
+    else
+        b * 4;
+    endif;
+end;
